@@ -1,0 +1,14 @@
+public class Problem4 {
+    public static void main(String[] args) {
+        Blender b = new Blender();
+
+        b.setSpeedLevel(3);
+        System.out.println(b.getSpeedLevel());
+
+        b.setSpeedLevel(9);
+        System.out.println("Speed level after invalid setting: " + b.getSpeedLevel());
+
+        System.out.println(b.prepare());
+        System.out.println(b.clean());
+    }
+}
